@@ -1,0 +1,305 @@
+
+
+
+
+/* tittle */
+#title {
+
+  background-color: #8ccbbe;
+  color:#fff;
+
+font-family: 'Ubuntu', sans-serif;
+
+
+}
+.container-fluid{
+padding:3% 15% 7% ;
+}
+
+
+.title-image{
+    border-radius: 100%;
+    width: 53%;
+    transform: rotate(25deg);
+   position: absolute;
+    left:793px;
+    bottom:-86px;
+
+
+
+}
+#h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+
+}
+.navbar{
+  padding:0;
+}
+.navbar-brand{
+    font-family: 'Ubuntu',sans-serif;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+   font-weight: lighter;
+}
+/* Download buttons */
+.Download-button{
+  margin: 5% 3% 5% 0;
+}
+/* title image */
+
+
+
+/***************** feature ********************/
+#features{
+  padding: 7% 15%;
+  position: relative;
+  background-color: #f5f5f5;
+font-size: 3rem;
+
+}
+
+
+#fbtn1{
+  border-radius: 100%;
+  position: absolute;
+  left:5px;
+}
+#fbtn2{
+   font-size: 1.7rem;
+}
+.f-bttn:hover{
+  color: #ff4c68;
+}
+
+.color{
+   color: #8f8f8f;
+}
+.font{
+   font-family: 'Montserrat',bold;
+   font-size: 1.5rem;
+}
+@media (max-width:1028px) {
+
+.title-image{
+  position: static;
+  transform: rotate(0);
+   width: 35%;
+}
+.title-image:hover{
+  width: 45%;
+}
+#title{
+  text-align: center;
+}
+}
+/************************** testimonials********************* */
+#testimonials{
+  background-color: #d6efc7;
+  color:#2f2519;
+  text-align: center;
+
+
+
+
+}
+
+h2{
+  font-size: 3rem;
+  font-family: 'Montserrat',bold;
+
+padding-bottom: 0;
+}
+.testimonial-image{
+  border-radius: 100%;
+
+
+  width: 150px;
+  padding: 20px;
+}
+#testimonial-carousel{
+  padding: 7% 15%;
+}
+/***************************** press**************** */
+#press{
+  background-color: #d6efc7;
+  color:#fff;
+  text-align: center;
+  padding: 12px;
+
+
+}
+.press-image{
+       width: 15%;
+       margin: 20px 20px 50px;
+
+}
+/****************************** price******************** */
+#pricing{
+  padding: 100px;
+  text-align: center;
+
+
+
+}
+.price-col{
+  padding: 2% 3%;
+}
+/* *****************Photography*********************************** */
+
+/* *******************************gallery **********************/
+
+
+.container.gallery-container {
+    background-color: #fff;
+    color: #888;
+    min-height: 100vh;
+    border-radius: 20px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06);
+}
+
+.gallery-container h1 {
+    text-align: center;
+    margin-top: 70px;
+
+    font-weight: bold;
+}
+
+.gallery-container p.page-description {
+    text-align: center;
+    max-width: 800px;
+    margin: 25px auto;
+    color: #8ccbbe;
+    font-size: 18px;
+}
+
+.tz-gallery {
+    padding: 40px;
+}
+
+.tz-gallery .lightbox img {
+    width: 100%;
+    margin-bottom: 30px;
+    transition: 0.2s ease-in-out;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+}
+
+
+.tz-gallery .lightbox img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+}
+
+.tz-gallery img {
+    border-radius: 4px;
+}
+
+.baguetteBox-button {
+    background-color: transparent !important;
+}
+
+
+@media(max-width: 768px) {
+    body {
+        padding: 0;
+    }
+
+    .container.gallery-container {
+        border-radius: 0;
+    }
+}
+/************************************* cta *******************************/
+#cta{
+  background-color: #393e46;
+  color:#fff;
+text-align: center;
+font-family: 'Fontdiner Swanky', cursive;
+letter-spacing: 3px;
+padding: 3% 15% 7%;
+
+}
+/* .cta-h3{
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1.7rem;
+} */
+
+.drum {
+  outline: none;
+  border: 0.325rem solid #d6efc7;
+  font-size: 1rem;
+  line-height: 2;
+  font-weight: 900;
+  color:black;
+  text-shadow: 0.188rem 0 #DBEDF3;
+  border-radius: 0.938rem;
+
+    margin-bottom: 3.125rem;
+    margin-top: 1.875rem;
+
+  text-align: center;
+
+  background-color: white;
+}
+.drum:hover{
+  background-color:#f2aaaa;
+  border: 0.325rem solid #DA0463;
+
+}
+
+.cta-img1{
+  width: 9.375rem;
+height: 10.625rem;
+border-radius: 10%;
+margin: 2.25rem;
+margin-left: 0.625rem;
+margin-top: 0.313rem;
+margin-right: 0.625rem;
+margin-bottom: 0.313rem;
+}
+
+p{
+  text-align: center;
+}
+@media (max-width:700px) {
+  .cta-img1{
+    width: 5.375rem;
+  height: 5.625rem;
+  border-radius: 10%;
+  margin: 2.25rem;
+  margin-left: 0.625rem;
+  margin-top: 0.313rem;
+  margin-right: 0.625rem;
+  margin-bottom: 0.313rem;
+  }
+
+}
+/********************************** footer ******************************************/
+
+.p{
+     color: #d6efc7;
+     letter-spacing: 3.5px;
+}
+.footer-icon{
+     color:#d6efc7 ;
+      padding: 5px;
+}
+.heart{
+  color: red;
+}
+.footerdiv{
+   color: black;
+}
+.l{
+  text-decoration: none;
+  color:#888;
+}
+.l:hover{
+  text-decoration: none;
+}

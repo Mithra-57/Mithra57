@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Mono&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f5f6fa;
+}
+
+.content {
+  display: flex;
+}
+
+.cake {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 8px;
+}
+  .layer {
+    background-color: #8b4513;
+}
+    .cherry {
+      position: absolute;
+      border-radius: 50%;
+      height: 15px;
+      width: 15px;
+      background-color: #ea2027;
+      top: -17px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    &:nth-of-type(1) {
+      width: 100px;
+      height: 30px;
+      border-radius: 5px 5px 0 0;
+      border-top: 6px solid #fa406b;
+      position: relative;
+    }
+    &:nth-of-type(2) {
+      width: 150px;
+      height: 35px;
+      border-radius: 5px 5px 0 0;
+      border-top: 8px solid #fa406b;
+    }
+    &:nth-of-type(3) {
+      width: 200px;
+      height: 50px;
+      border-radius: 5px 5px 0 0;
+      border-top: 10px solid #fa406b;
+    }
+  }
+
+  .plate {
+    height: 15px;
+    width: 230px;
+    background-color: #b2bec3;
+  }
+}
+
+.box {
+  border: 4px solid #333;
+  background-color: orange;
+  display: flex;
+  // font-size: 48px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: 40px;
+  width: 35px;
+  align-self: flex-end;
+  margin-bottom: 7px;
+}
+
+.fa-lemon {
+  color: yellow;
+}
+
+.box::after {
+  content: "";
+  border: 4px solid #333;
+  background-color: inherit;
+  position: absolute;
+  top: -10px;
+  left: -4px;
+  height: 10px;
+  width: 100%;
+}
+
+.box::before {
+  content: "";
+  border: 4px solid #333;
+  background-color: inherit;
+  position: absolute;
+  bottom: -10px;
+  left: -4px;
+  height: 10px;
+  width: 100%;
+}
+p.wish {
+  font-family: "DM Mono", monospace;
+  font-size: 18px;
+  margin-top: 1.8rem;
+  text-align: center;
+}
